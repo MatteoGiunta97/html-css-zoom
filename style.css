@@ -34,10 +34,28 @@ img {
 /*-- GRID LAYOUT --*/
 
 .container {
-    max-width: px;
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.container-top {
+    background-color: black;
+    height: 30px;
+
+}
+
+.container-main {
+    background-color: black;
+    width: 100vw;
+    height: calc(100vh - 130px);
+}
+
+.container-bottom {
+    background-color: #222222;
+    height: 100px;
 }
 
 .row {
@@ -59,8 +77,8 @@ img {
     width: calc(100%/7);
 }
 
-.col-50 {
-    width: 50%;
+.col-33 {
+    width: calc(100%/3);
 }
 
 /*--/ GRID LAYOUT --*/
