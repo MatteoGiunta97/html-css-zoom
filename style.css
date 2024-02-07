@@ -95,12 +95,17 @@ img {
 
 .toggle-screen-view {
     display: flex;
-    color: white;
-    background-color: #222222;
-    padding: 5px 15px 5px 15px;
-    border-radius: 7px;
     margin-top: 10px;
     margin-right: 10px;
 }
+
+.toggle-screen-view button {
+    color: white;
+    background-color: #222222;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+}
+
 
 /*--/ TOP --*/
