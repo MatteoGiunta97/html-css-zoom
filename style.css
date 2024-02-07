@@ -44,7 +44,6 @@ img {
 .container-top {
     background-color: black;
     height: 30px;
-
 }
 
 .container-main {
@@ -83,3 +82,19 @@ img {
 }
 
 /*--/ GRID LAYOUT --*/
+
+
+/*-- TOP --*/
+
+.screen-top {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.toggle-screen-view {
+    display: flex;
+    color: white;
+    background-color: #222222;
+}
+
+/*--/ TOP --*/
