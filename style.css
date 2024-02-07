@@ -50,12 +50,12 @@ img {
 .container-main {
     background-color: black;
     width: 100vw;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 110px);
 }
 
 .container-bottom {
     background-color: #222222;
-    height: 100px;
+    height: 80px;
 }
 
 .row {
