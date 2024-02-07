@@ -35,15 +35,17 @@ img {
 
 .container-top {
     background-color: black;
-    height: 30px;
+    height: 40px;
     width: 100vw;
+    position: fixed;
+    z-index: 10;
 }
 
 .container-main {
     background-color: black;
     color: white;
     width: 100vw;
-    height: calc(100vh - 110px);
+    height: calc(100vh - 120px);
     overflow: auto;
     padding-top: 30px;
 }
@@ -111,6 +113,19 @@ img {
 
 .container-main .col-15 {
     margin: 15px 5px;
+}
+
+.main-row .col-15 {
+    position: relative;
+}
+
+.main-row small {
+position: absolute;
+bottom: 4px;
+left: 1px;
+z-index: 1;
+
+background-color:  rgba(0, 0, 0, 0.6);
 }
 
 /*--/ MAIN --*/
