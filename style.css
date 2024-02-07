@@ -1,10 +1,10 @@
 /*-- RESET --*/
-
+ 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} 
 
 * {
     font-family: Roboto;
@@ -46,7 +46,7 @@ img {
     color: white;
     width: 100vw;
     height: calc(100vh - 120px);
-    overflow: auto;
+    overflow-y: auto;
     padding-top: 30px;
 }
 
@@ -129,3 +129,31 @@ background-color:  rgba(0, 0, 0, 0.6);
 }
 
 /*--/ MAIN --*/
+
+
+/*-- BOTTOM --*/
+
+.option-bar-left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.option-bar-center {
+    display: flex;
+    justify-content: center;
+}
+
+.option-bar-right {
+    display: flex;
+    justify-content: end;
+}
+
+.container-bottom button {
+    color: white;
+    background-color: #222222;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+}
+/*--/ BOTTOM --*/
