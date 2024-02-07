@@ -33,14 +33,6 @@ img {
 
 /*-- GRID LAYOUT --*/
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .container-top {
     background-color: black;
     height: 30px;
@@ -49,9 +41,11 @@ img {
 
 .container-main {
     background-color: black;
+    color: white;
     width: 100vw;
     height: calc(100vh - 110px);
     overflow: auto;
+    padding-top: 30px;
 }
 
 .container-bottom {
@@ -96,7 +90,6 @@ img {
 .toggle-screen-view {
     display: flex;
     margin-top: 10px;
-    margin-right: 10px;
 }
 
 .toggle-screen-view button {
@@ -107,5 +100,17 @@ img {
     margin-left: 10px;
 }
 
-
 /*--/ TOP --*/
+
+/*-- MAIN --*/
+
+.container-main .row {
+    justify-content: center;
+    align-items: center;
+}
+
+.container-main .col-15 {
+    margin: 15px 5px;
+}
+
+/*--/ MAIN --*/
